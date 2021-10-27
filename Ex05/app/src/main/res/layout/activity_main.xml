@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDB0CB">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="95dp"
+        android:layout_y="22dp"
+        android:text="Student Details"
+        android:textColor="#E91E63"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="110dp"
+        android:text="Enter Rollno:"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/Rollno"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="175dp"
+        android:layout_y="100dp"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="160dp"
+        android:text="Enter Name:"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/Marks"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_x="174dp"
+        android:layout_y="198dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="175dp"
+        android:layout_y="150dp"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="210dp"
+        android:text="Enter Marks:"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Insert"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="25dp"
+        android:layout_y="300dp"
+        android:backgroundTint="#E91E63"
+        android:text="Insert"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/Delete"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="200dp"
+        android:layout_y="300dp"
+        android:backgroundTint="#E91E63"
+        android:text="Delete"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/Update"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="25dp"
+        android:layout_y="400dp"
+        android:backgroundTint="#E91E63"
+        android:text="Update"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/View"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="200dp"
+        android:layout_y="400dp"
+        android:backgroundTint="#E91E63"
+        android:text="View"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/ViewAll"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_x="100dp"
+        android:layout_y="500dp"
+        android:backgroundTint="#E91E63"
+        android:text="View All"
+        android:textSize="20dp" />
+
+</AbsoluteLayout>
